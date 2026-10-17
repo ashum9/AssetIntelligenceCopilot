@@ -1,0 +1,478 @@
+{
+  "generated_at": "2026-10-17T11:26:34.172045+00:00",
+  "q1": {
+    "asset_id": "WELL-0001",
+    "well_name": "SW-23 Well 001",
+    "well_type": "T200",
+    "area_name": "Southwest Block 23",
+    "is_producing": false,
+    "inspection_id": "INS-0001-0203",
+    "inspection_date": "2026-10-15",
+    "method": "drone",
+    "inspector_name": "Ryan Brooks",
+    "wellhead_temp_c": 25.6,
+    "ambient_temp_c": 22.4,
+    "temp_delta_c": 3.2,
+    "required_temp_delta_c": 15.0,
+    "temp_rule_citation": "fleet/well-types/T200.md",
+    "recorded_status": "active",
+    "is_recorded_status_stale": true,
+    "recorded_status_display": "active (out of date)",
+    "stop_reason_type": "PLANNED_SHUTIN_NOTE",
+    "active_shutin_note_id": "CTX-0001-003",
+    "active_shutin_author_name": "Jake Morales",
+    "valid_from": "2026-10-07",
+    "valid_to": "2026-10-20",
+    "note_text": "Well shut in from 7 Oct for planned rod string replacement. Work order not yet in the maintenance system. Expected back online around 20 Oct.",
+    "is_shutin_logged_in_maintenance": false,
+    "visual": "status_card",
+    "producing_answer": "No, it is not producing oil."
+  },
+  "q2": {
+    "visual": "table",
+    "count": 4,
+    "wells": [
+      {
+        "asset_id": "WELL-0164",
+        "well_type": "T200",
+        "inspection_date": "2026-10-15",
+        "temp_delta_c": 4.1,
+        "recorded_status_display": "active (out of date)",
+        "stop_reason_type": "NO_RECORDED_REASON",
+        "stop_reason_summary": "No recorded reason. The inspector noted \"Pump jack not moving.\""
+      },
+      {
+        "asset_id": "WELL-0170",
+        "well_type": "T200",
+        "inspection_date": "2026-10-15",
+        "temp_delta_c": 2.9,
+        "recorded_status_display": "down",
+        "stop_reason_type": "OPEN_REPAIR",
+        "stop_reason_summary": "Repair MNT-0170-031, walking beam bearing wear, started 19 Sep, still open"
+      },
+      {
+        "asset_id": "WELL-0172",
+        "well_type": "T200",
+        "inspection_date": "2026-10-15",
+        "temp_delta_c": 5.7,
+        "recorded_status_display": "active (out of date)",
+        "stop_reason_type": "OPEN_REPAIR",
+        "stop_reason_summary": "Repair MNT-0172-028, flowline corrosion pinhole leak, started 03 Oct, still open"
+      },
+      {
+        "asset_id": "WELL-0175",
+        "well_type": "T200",
+        "inspection_date": "2026-10-15",
+        "temp_delta_c": 0.4,
+        "recorded_status_display": "active (out of date)",
+        "stop_reason_type": "NO_RECORDED_REASON",
+        "stop_reason_summary": "No recorded reason"
+      }
+    ]
+  },
+  "q3": {
+    "visual": "line_chart",
+    "reading_count": 13,
+    "time_series": [
+      {
+        "inspection_date": "2026-07-23",
+        "wellhead_temp_c": 61.2,
+        "ambient_temp_c": 33.1,
+        "temp_delta_c": 28.1,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-07-30",
+        "wellhead_temp_c": 58.2,
+        "ambient_temp_c": 32.0,
+        "temp_delta_c": 26.2,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-08-06",
+        "wellhead_temp_c": 65.0,
+        "ambient_temp_c": 35.1,
+        "temp_delta_c": 29.9,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-08-13",
+        "wellhead_temp_c": 60.6,
+        "ambient_temp_c": 34.0,
+        "temp_delta_c": 26.6,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-08-20",
+        "wellhead_temp_c": 59.3,
+        "ambient_temp_c": 36.3,
+        "temp_delta_c": 23.0,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-08-27",
+        "wellhead_temp_c": 61.2,
+        "ambient_temp_c": 34.4,
+        "temp_delta_c": 26.8,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-09-03",
+        "wellhead_temp_c": 65.2,
+        "ambient_temp_c": 34.5,
+        "temp_delta_c": 30.7,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-09-10",
+        "wellhead_temp_c": 52.8,
+        "ambient_temp_c": 27.2,
+        "temp_delta_c": 25.6,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-09-17",
+        "wellhead_temp_c": 53.6,
+        "ambient_temp_c": 31.2,
+        "temp_delta_c": 22.4,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-09-24",
+        "wellhead_temp_c": 45.7,
+        "ambient_temp_c": 23.6,
+        "temp_delta_c": 22.1,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-10-01",
+        "wellhead_temp_c": 50.4,
+        "ambient_temp_c": 23.0,
+        "temp_delta_c": 27.4,
+        "required_temp_delta_c": 15.0,
+        "is_producing": true
+      },
+      {
+        "inspection_date": "2026-10-08",
+        "wellhead_temp_c": 23.4,
+        "ambient_temp_c": 20.2,
+        "temp_delta_c": 3.2,
+        "required_temp_delta_c": 15.0,
+        "is_producing": false
+      },
+      {
+        "inspection_date": "2026-10-15",
+        "wellhead_temp_c": 25.6,
+        "ambient_temp_c": 22.4,
+        "temp_delta_c": 3.2,
+        "required_temp_delta_c": 15.0,
+        "is_producing": false
+      }
+    ],
+    "non_producing_dates": [
+      "2026-10-08",
+      "2026-10-15"
+    ]
+  },
+  "q4": {
+    "visual": "table",
+    "total_detections": 7,
+    "effective_spill_count": 6,
+    "total_volume_bbl": 15.1,
+    "spills": [
+      {
+        "inspection_id": "INS-0001-0021",
+        "inspection_date": "2023-03-16",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 0.5,
+        "effective_volume_bbl": 0.5,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      },
+      {
+        "inspection_id": "INS-0001-0027",
+        "inspection_date": "2023-04-27",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 2.6,
+        "effective_volume_bbl": 2.6,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      },
+      {
+        "inspection_id": "INS-0001-0048",
+        "inspection_date": "2023-09-28",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 3.3,
+        "effective_volume_bbl": 3.3,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      },
+      {
+        "inspection_id": "INS-0001-0051",
+        "inspection_date": "2023-10-19",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 0.3,
+        "effective_volume_bbl": 0.3,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      },
+      {
+        "inspection_id": "INS-0001-0185",
+        "inspection_date": "2026-06-11",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 6.8,
+        "effective_volume_bbl": 6.8,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      },
+      {
+        "inspection_id": "INS-0001-0201",
+        "inspection_date": "2026-10-01",
+        "raw_spill_detected": true,
+        "effective_spill_detected": true,
+        "raw_volume_bbl": 1.6,
+        "effective_volume_bbl": 1.6,
+        "applied_correction_note_ids": null,
+        "correction_reasons": null
+      }
+    ],
+    "rainwater_detection": [
+      {
+        "inspection_id": "INS-0001-0070",
+        "inspection_date": "2024-03-07",
+        "raw_spill_detected": true,
+        "effective_spill_detected": false,
+        "raw_volume_bbl": 0.9,
+        "effective_volume_bbl": 0.0,
+        "applied_correction_note_ids": "CTX-0001-001",
+        "correction_reasons": "Inspection INS-0001-0070: dark patch is rainwater mixed with soil, not crude. Not a spill."
+      }
+    ]
+  },
+  "q5": {
+    "visual": "short_answer",
+    "total_downtime_days": 21,
+    "down_inspections_count": 3,
+    "evidence": [
+      {
+        "inspection_id": "INS-0001-0140",
+        "inspection_date": "2025-07-24",
+        "wellhead_temp_c": 51.6,
+        "ambient_temp_c": 43.1,
+        "temp_delta_c": 8.5,
+        "downtime_days": 7,
+        "maintenance_id": "MNT-0001-021",
+        "issue": "Prime mover tripped on high temperature",
+        "action_taken": "Reset motor overload, replaced cooling fan shroud"
+      },
+      {
+        "inspection_id": "INS-0001-0152",
+        "inspection_date": "2025-10-16",
+        "wellhead_temp_c": 26.6,
+        "ambient_temp_c": 23.2,
+        "temp_delta_c": 3.4,
+        "downtime_days": 7,
+        "maintenance_id": "MNT-0001-023",
+        "issue": "Stuffing box packing leak",
+        "action_taken": "Replaced stuffing box packing"
+      },
+      {
+        "inspection_id": "INS-0001-0153",
+        "inspection_date": "2025-10-23",
+        "wellhead_temp_c": 16.0,
+        "ambient_temp_c": 16.6,
+        "temp_delta_c": -0.6,
+        "downtime_days": 7,
+        "maintenance_id": null,
+        "issue": null,
+        "action_taken": null
+      }
+    ]
+  },
+  "q6": {
+    "visual": "bar_chart",
+    "window": "16 Jun 2026 to 16 Oct 2026",
+    "top_3": [
+      {
+        "asset_id": "WELL-0121",
+        "well_type": "T200",
+        "total_downtime_days": 49
+      },
+      {
+        "asset_id": "WELL-0107",
+        "well_type": "T350",
+        "total_downtime_days": 42
+      },
+      {
+        "asset_id": "WELL-0138",
+        "well_type": "T350",
+        "total_downtime_days": 42
+      }
+    ],
+    "runner_up": {
+      "asset_id": "WELL-0119",
+      "well_type": "T200",
+      "total_downtime_days": 28
+    }
+  },
+  "q7": {
+    "visual": "map",
+    "pin_count": 4,
+    "pins": [
+      {
+        "asset_id": "WELL-0151",
+        "inspection_date": "2026-09-24",
+        "volume_bbl": 4.5,
+        "lat": 32.12246,
+        "lon": -102.18445
+      },
+      {
+        "asset_id": "WELL-0165",
+        "inspection_date": "2026-07-30",
+        "volume_bbl": 1.2,
+        "lat": 32.15665,
+        "lon": -102.14522
+      },
+      {
+        "asset_id": "WELL-0175",
+        "inspection_date": "2026-07-30",
+        "volume_bbl": 3.9,
+        "lat": 32.1802,
+        "lon": -102.1479
+      },
+      {
+        "asset_id": "WELL-0186",
+        "inspection_date": "2026-07-23",
+        "volume_bbl": 0.6,
+        "lat": 32.17552,
+        "lon": -102.17775
+      }
+    ]
+  },
+  "q8": {
+    "visual": "heatmap",
+    "total_2026_spills": 141,
+    "matrix": [
+      {
+        "area_name": "Northeast Block 7",
+        "Jan": 5,
+        "Feb": 3,
+        "Mar": 2,
+        "Apr": 4,
+        "May": 6,
+        "Jun": 6,
+        "Jul": 2,
+        "Aug": 4,
+        "Sep": 4,
+        "Oct": 1,
+        "Total": 37
+      },
+      {
+        "area_name": "Northeast Block 8",
+        "Jan": 4,
+        "Feb": 4,
+        "Mar": 4,
+        "Apr": 3,
+        "May": 2,
+        "Jun": 4,
+        "Jul": 4,
+        "Aug": 0,
+        "Sep": 1,
+        "Oct": 0,
+        "Total": 26
+      },
+      {
+        "area_name": "Southwest Block 23",
+        "Jan": 4,
+        "Feb": 3,
+        "Mar": 3,
+        "Apr": 6,
+        "May": 3,
+        "Jun": 4,
+        "Jul": 4,
+        "Aug": 3,
+        "Sep": 3,
+        "Oct": 2,
+        "Total": 35
+      },
+      {
+        "area_name": "Southwest Block 24",
+        "Jan": 7,
+        "Feb": 4,
+        "Mar": 5,
+        "Apr": 6,
+        "May": 5,
+        "Jun": 5,
+        "Jul": 3,
+        "Aug": 1,
+        "Sep": 5,
+        "Oct": 2,
+        "Total": 43
+      }
+    ]
+  },
+  "q9": {
+    "asset_id": "WELL-0001",
+    "sr01_breaches_cnt": 1,
+    "sr02_breaches_cnt": 1,
+    "sr03_breaches_cnt": 1,
+    "rc04_breaches_cnt": 1,
+    "total_breaches_12m": 4,
+    "open_fines_usd": 5000.0,
+    "sr01_detail": "SR-01: reported after 41.0h (>24h limit)",
+    "sr02_detail": "SR-02: contained after 7.0h (>4h limit)",
+    "sr03_detail": "SR-03: cleanup verification due by 10 Aug 2026 is still open",
+    "rc04_detail": "RC-04: NOV response due by 30 Jul 2026 has no recorded response",
+    "has_pending_rca": true,
+    "pending_rca_equipment_list": "flowline",
+    "pending_rca_details": "RCA due on flowline (3 repairs in last 12m; report marks Action required)",
+    "has_unlogged_planned_shutin": true,
+    "unlogged_shutin_note_id": "CTX-0001-003",
+    "unlogged_shutin_summary": "Well shut in from 7 Oct for planned rod string replacement. Work order not yet in the maintenance system. Expected back online around 20 Oct.",
+    "last_annual_flowline_test_date": "2026-03-07",
+    "is_annual_flowline_test_met": true,
+    "visual": "table"
+  },
+  "q10": {
+    "visual": "table",
+    "limit_hours": 4.0,
+    "breach_count": 2,
+    "breaches": [
+      {
+        "asset_id": "WELL-0100",
+        "inspection_id": "INS-0100-0196",
+        "maintenance_id": "MNT-0100-034",
+        "inspection_date": "2026-09-10",
+        "volume_bbl": 0.4,
+        "containment_hours": 8.1,
+        "limit_hours": 4.0,
+        "report_file_path": "assets/WELL-0100/maintenance-reports/MNT-0100-034.md"
+      },
+      {
+        "asset_id": "WELL-0082",
+        "inspection_id": "INS-0082-0198",
+        "maintenance_id": "MNT-0082-028",
+        "inspection_date": "2026-09-10",
+        "volume_bbl": 0.7,
+        "containment_hours": 7.1,
+        "limit_hours": 4.0,
+        "report_file_path": "assets/WELL-0082/maintenance-reports/MNT-0082-028.md"
+      }
+    ]
+  }
+}
