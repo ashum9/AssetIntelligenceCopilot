@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  copilot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flytbase-asset-intelligence-copilot
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - PYTHONUNBUFFERED=1
+      - REFERENCE_TODAY=2026-10-17
+      - DATASET_ROOT=/app/sample-data
+      - ARTIFACTS_DIR=/app/artifacts
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped

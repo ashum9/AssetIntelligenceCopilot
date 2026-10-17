@@ -1,0 +1,36 @@
+# DigitalOcean App Platform Specification
+# Deploy via: doctl apps create --spec .do/app.yaml
+name: flytbase-asset-intelligence-copilot
+region: nyc
+
+services:
+  - name: copilot-backend
+    git:
+      repo_clone_url: https://github.com/ashum9/AssetIntelligenceCopilot.git
+      branch: master
+    dockerfile_path: Dockerfile
+    source_dir: /
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    routes:
+      - path: /
+
+    health_check:
+      http_path: /api/health
+      initial_delay_seconds: 10
+      period_seconds: 15
+      timeout_seconds: 5
+      failure_threshold: 3
+
+    envs:
+      - key: PORT
+        value: "8080"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: REFERENCE_TODAY
+        value: "2026-10-17"
+      - key: DATASET_ROOT
+        value: "/app/sample-data"
+      - key: ARTIFACTS_DIR
+        value: "/app/artifacts"
